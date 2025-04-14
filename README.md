@@ -59,5 +59,11 @@ This will generate a file named `clinics.csv` with at least 50 deduplicated clin
 
 After the .csv file was generated using the scraper, it was uploaded to Clay. Contact information was then enriched (Full Name, Job Title, Location, Company Domain, LinkedIn Profile, Work Email), and companies were categorized by size: Small, Medium, or Large.
 
+**⚠️ Limitations**
+
+•	**Phone numbers were not included** because this feature is only available on Clay’s paid tier.
+
+•	**Although the prompt requested 100 contacts**, I decided to extend the dataset to **nearly 200 enriched leads**. This was done intentionally to show a broader diversity of companies scraped. Clay often returned multiple high-quality contacts per company, and I opted to preserve all potentially valuable entries rather than discard them arbitrarily.
+
 You can find the final Google Sheets document here:
 https://docs.google.com/spreadsheets/d/1fxpAjbLxFXI10ARoq8pRmKAxn18sR6OI5JrdeRm7hlk/edit?usp=sharing
