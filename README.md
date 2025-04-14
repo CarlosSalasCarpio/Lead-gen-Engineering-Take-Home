@@ -56,3 +56,8 @@ This will generate a file named `clinics.csv` with at least 50 deduplicated clin
 - Python 3.8+
 - [Playwright](https://playwright.dev/python/)
 - `pandas` and `csv` for structured output
+
+After the .csv file was generated using the scraper, it was uploaded to Clay. Contact information was then enriched (Full Name, Job Title, Location, Company Domain, LinkedIn Profile, Work Email), and companies were categorized by size: Small, Medium, or Large.
+
+You can find the final Google Sheets document here:
+https://docs.google.com/spreadsheets/d/1fxpAjbLxFXI10ARoq8pRmKAxn18sR6OI5JrdeRm7hlk/edit?usp=sharing
